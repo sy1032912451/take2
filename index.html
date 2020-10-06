@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.oo{
+			text-align: center;
+		}
+		.a{
+			width: 66px;
+			height: 30px;
+			background: #abcdf0;
+			display: inline-block;
+			text-align: center;
+		}
+		.b{
+			width: 328px;
+			height: 30px;
+			background: #fedbbb;
+			display: inline-block;
+		}
+		.c{
+			width: 396px;
+			height: 30px;
+			background: #aabbcb;
+			display: inline-block;
+			text-align: center;
+		}
+		.l{
+			width: 400px;
+			margin: 0 auto;
+		}
+			table{
+			border-collapse: collapse;
+		}
+		.ss,th{
+			width: 40px;
+			height: 40px;
+		}
+		tanle,tr,td{
+			border: 1px solid black;
+		}
+		.a1{
+			width: 20px;
+			height: 40px;
+		}
+		.a2{
+			width: 40px;
+			height: 40px;
+		}
+		.a3{
+			width: 20px;
+			height: 20px;
+		}
+		.po{
+			width: 60px;
+			height:60px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+	<form>
+			<h1 id="a">会员注册表</h1>
+			<p>
+				<label for="yhm">用户名：</label>
+			  <input type="text" name="yhm" id="yhm" value="请输入姓名">
+			</p>
+			<p>
+			<label for="mi">密码：&nbsp;&nbsp;&nbsp;</label>
+			<input type="text" name="mi" id="mi">
+			</p>
+			<p>
+      	<label for="">性别：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      	<input type="radio" name="nv" id="na">
+      	<label for="na">男</label>
+      	<input type="radio" name="nv" id="n" >
+      	<label for="n" ch>女</label>
+      </p>
+       <p>
+      	<label for="">爱好：</label>
+      	<input type="checkbox" name="shangwang" id="sh" >
+      	<label for="sh">上网</label>
+      	<input type="checkbox" name="langqui" id="lq" >
+      	<label for="lq">篮球</label>
+      	<input type="checkbox" name="zuqui" id="zq" >
+      	<label for="zq">足球</label>
+      	<input type="checkbox" name="guangjei" id="gj" >
+      	<label for="gj">逛街</label>
+      	<input type="checkbox" name="changge" id="cg" >
+      	<label for="cg">唱歌</label>
+      	<input type="checkbox" name="tiaowu" id="tw" >
+      	<label for="tw">跳舞</label>
+      	<input type="checkbox" name="paiqui" id="pq" >
+      	<label for="pq">排球</label>
+      </p>
+      <p>
+      	<label for="">居住地：</label>
+      	<select>
+      	<option >--请选择--</option>
+      	<option >河北省</option>
+      	<option >山西省</option>
+      	<option >湖北省</option>
+      	<option >云南省</option>
+      </select>
+      </p>
+      <p>
+				<label for="tel">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tel:</label>
+			  <input type="text" name="tel" id="tel" value="请输入姓名">
+			</p>
+			<p>
+				<label for="e">E-mail:</label>
+			  <input type="text" name="e" id="e" >
+			</p>
+			<p>
+      	<label for="bz">备注：</label>
+      	<textarea id="bz" name="" rows="10" cols="30"></textarea>
+      </p>
+      <p>
+      	<input type="button" value="注册">
+      	<input type="button" value="取消">
+      </p>
+		</form>
+		</div>
+		<hr>
+	<div>
+		<div class="l">
+	<h1 class="oo">Information Form</h1>
+	<p>
+		<span class="a">
+			<label for="a">name</label></span>
+			<span class="b">
+		<input id="a" type="text" name="nm" value="">
+	</span>
+	</p>
+	<p><span class="a">
+		<label for="b"> pwd</label>
+	</span>
+	<span class="b">
+		<input id="b" type="password" name="pwd" value="" size="18"></span>
+	</p>
+	<p><span class="a">
+		<label for="">sex</label></span>
+		<span class="b">
+		<input id="s" type="radio" name="ml"  value="">
+		<label for="s">male</label>
+		<input id="h" type="radio" name="fl" value="">
+		<label for="h">female</label></span>
+	</p>
+	<p><span class="a">
+		<label for="">age</label></span>
+		<span class="b">
+		<select name="age" id="age">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+		</select>
+	</span>
+	</p>
+	<p>
+		<span class="a">
+		<label for="">course</label>
+	</span>
+	   <span class="b">
+		<input id="c" type="checkbox" name="" value="">
+		<label for="c">Chinese</label>
+		<input id="d" type="checkbox" name="" value="">
+		<label for="d">Math</label>
+		<input id="e" type="checkbox" name="" value="">
+		<label for="e">English</label></span>
+	</p>
+	<p><span class="c">
+		<input type="submit" value="Submit it!" >
+		<input type="reset" value="Reset it!"></span>
+	</p>
+	</div>
+	<div>
+		<table>
+		<tr>
+			<td class="ss" rowspan="2"></td>
+			<td class="ss" rowspan="2"></td>
+			<td class="ss" colspan="2"></td>
+		</tr>
+		<tr>
+			<td class="ss" colspan="2"></td>
+		</tr>
+		<tr>
+			<td class="ss" colspan="2"></td>
+			<td class="ss" rowspan="2"></td>
+			<td class="ss" rowspan="2"></td>
+		</tr>
+		<tr>
+			<td class="ss" colspan="2"></td>
+		</tr>
+	</table>
+	</div>
+	<hr>
+	<div>
+		<table>
+		<tr>
+			<td rowspan="2" class="a1"></td>
+			<td rowspan="2" colspan="2" class="a2"></td>
+			<td rowspan ="2" class="a1"></td>
+		</tr>
+		<tr>
+		</tr>
+		<tr>
+			<td rowspan="2" class="a1"></td>
+			<td colspan="2"></td>
+			<td rowspan="2" class="a1"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			</tr>
+		<tr>
+			<td class="a3"></td>
+			<td colspan="2"></td>
+			<td class="a3"></td>
+		</tr>
+	</table>
+	</div>
+	<hr>
+	<div>
+		<table>
+		<tr>
+			<td class="po" colspan="2"></td>
+			<td class="po" rowspan="2"></td>
+		</tr>
+		<tr>
+			<td  class="po"rowspan="2"></td>
+			<td class="po"></td>
+		</tr>
+		<tr>
+			<td class="po" colspan="2"></td>
+		</tr>
+	</table>
+	</div>
+</body>
+</html>
